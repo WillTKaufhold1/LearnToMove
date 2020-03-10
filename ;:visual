@@ -23,20 +23,16 @@ Implementation of the evaluator is in GPU accelerate HOOMD-BLUE. Implementation 
 
 ### Units 
 
-Fundamental units in HOOMD-BLUE are distance / energy / mass.
-
-Here, the specific units we use are: ...
+Fundamental units are distance / energy / mas
 
 ### Parameters
 
+
 ### Evaluation
-
-For intra-node repulsion, a tabulated bond is used. The tabulated bond we use initially is a Gaussian, although this is for convenience, and realistically, we'll probably end up using something much closer to an empirically derived potential.
-
 
 ### State space 
 
-Genotype - phenotype map?
+Genotype - phenotype map.
 
 ### Optimization
 
