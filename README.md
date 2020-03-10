@@ -19,7 +19,9 @@ One alternative is to describe the system as a set of edges which represent sing
 
 ## Implementation 
 
-Implementation of the evaluator is in GPU accelerate HOOMD-BLUE. Implementation of the optimizer is in Python3. 
+Implementation of the evaluator is in GPU accelerate HOOMD-BLUE. Implementation of the optimizer is in Python3.
+
+I may end up transitioning to a very coarse MRDNA representation if excluded volume ends up being important. But I think the HOOMD blue representation is fairly flexible, and makes sense a s a first attempt...
 
 ### Units 
 
@@ -28,6 +30,8 @@ Fundamental units in HOOMD-BLUE are distance / energy / mass.
 Here, the specific units we use are: ...
 
 ### Parameters
+
+NORMAL MODES?
 
 ### Evaluation
 
